@@ -1,0 +1,1799 @@
+2016-01-08 16:43:21 INFO  App:15 - Nothing happened
+2016-01-08 16:45:08 INFO  App:15 - Nothing happened
+2016-01-08 18:40:59 INFO  App:14 - Nothing happened
+2016-01-08 19:36:57 INFO  App:14 - Nothing happened
+2016-01-08 23:45:42 INFO  App:14 - Nothing happened
+2016-01-09 19:03:29 INFO  App:13 - Supplied arguments: 
+2016-01-09 19:03:29 INFO  App:13 - Nothing happened
+2016-01-09 19:18:51 INFO  App:13 - Supplied arguments: -login'XXX'-pass'XXX'
+2016-01-09 19:18:51 DEBUG App:12 - Supplied LOGIN field: 'XXX'
+2016-01-09 19:18:51 DEBUG App:12 - Supplied PASS field: 'XXX'
+2016-01-09 19:18:51 FATAL App:16 - Unknown username 'XXX'
+2016-01-09 19:44:11 INFO  App:13 - Supplied arguments: -login 'XXX' -pass 'XXX' 
+2016-01-09 19:44:11 DEBUG App:12 - Supplied LOGIN field: 'XXX'
+2016-01-09 19:44:11 DEBUG App:12 - Supplied PASS field: 'XXX'
+2016-01-09 19:44:11 FATAL App:16 - Unknown username 'XXX'
+2016-01-09 19:44:30 INFO  App:13 - Supplied arguments: -login 'jdoe' -pass 'XXX' 
+2016-01-09 19:44:30 DEBUG App:12 - Supplied LOGIN field: 'jdoe'
+2016-01-09 19:44:30 DEBUG App:12 - Supplied PASS field: 'XXX'
+2016-01-09 19:44:30 FATAL App:16 - Unknown username 'jdoe'
+2016-01-09 19:44:55 INFO  App:13 - Supplied arguments: -login jdoe -pass XXX 
+2016-01-09 19:44:55 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 19:44:55 DEBUG App:12 - Supplied PASS field: XXX
+2016-01-09 19:44:55 FATAL App:16 - Incorrect password XXX
+2016-01-09 20:50:00 INFO  App:13 - Supplied arguments: -login jdoe -pass XXX 
+2016-01-09 20:50:00 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 20:50:00 DEBUG App:12 - Supplied PASS field: XXX
+2016-01-09 20:50:00 FATAL App:16 - Incorrect password XXX
+2016-01-09 20:50:00 WARN  App:15 - No access information, skipping
+2016-01-09 20:56:24 INFO  App:13 - Supplied arguments: 
+2016-01-09 20:56:24 INFO  App:13 - Nothing happened
+2016-01-09 20:56:30 INFO  App:13 - Supplied arguments: 
+2016-01-09 20:56:30 INFO  App:13 - Nothing happened
+2016-01-09 20:56:55 INFO  App:13 - Supplied arguments: 
+2016-01-09 20:56:55 INFO  App:13 - Nothing happened
+2016-01-09 20:56:59 INFO  App:13 - Supplied arguments: -login jdoe -pass XXX 
+2016-01-09 20:56:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 20:56:59 DEBUG App:12 - Supplied PASS field: XXX
+2016-01-09 20:56:59 FATAL App:16 - Incorrect password XXX
+2016-01-09 20:56:59 WARN  App:15 - No access information, skipping
+2016-01-09 20:57:25 INFO  App:13 - Supplied arguments: 
+2016-01-09 20:57:25 INFO  App:13 - Nothing happened
+2016-01-09 20:58:15 INFO  App:13 - Supplied arguments: 
+2016-01-09 20:58:15 INFO  App:13 - Nothing happened
+2016-01-09 20:58:25 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 20:58:25 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 20:58:25 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 20:58:25 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 20:58:25 FATAL App:16 - Unknown username XXX
+2016-01-09 20:58:25 WARN  App:15 - No access information, skipping
+2016-01-09 20:58:25 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 20:58:25 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 20:58:25 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 20:58:25 FATAL App:16 - Incorrect password XXXX
+2016-01-09 20:58:25 WARN  App:15 - No access information, skipping
+2016-01-09 20:59:51 INFO  App:13 - Supplied arguments: 
+2016-01-09 20:59:51 INFO  App:13 - Nothing happened
+2016-01-09 21:00:09 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:00:09 INFO  App:13 - Nothing happened
+2016-01-09 21:00:15 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:00:15 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:00:15 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:00:15 FATAL App:16 - Unknown username XXX
+2016-01-09 21:00:15 WARN  App:15 - No access information, skipping
+2016-01-09 21:00:15 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:00:15 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:00:15 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:00:15 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:00:15 WARN  App:15 - No access information, skipping
+2016-01-09 21:02:09 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:02:09 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:02:09 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:02:09 ERROR App:14 - No such user exists
+2016-01-09 21:02:09 FATAL App:16 - Unknown username XXX
+2016-01-09 21:02:09 WARN  App:15 - No access information, skipping
+2016-01-09 21:02:09 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:02:09 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:02:09 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:02:09 ERROR App:14 - Invalid password
+2016-01-09 21:02:09 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:02:09 WARN  App:15 - No access information, skipping
+2016-01-09 21:02:54 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:02:54 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:02:54 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:02:54 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:02:54 ERROR App:14 - No such user exists
+2016-01-09 21:02:54 FATAL App:16 - Unknown username XXX
+2016-01-09 21:02:54 WARN  App:15 - No access information, skipping
+2016-01-09 21:02:54 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:02:54 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:02:54 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:02:54 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:02:54 ERROR App:14 - Invalid password
+2016-01-09 21:02:54 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:02:54 WARN  App:15 - No access information, skipping
+2016-01-09 21:04:50 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:04:50 INFO  App:13 - Nothing happened
+2016-01-09 21:05:27 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:05:27 INFO  App:13 - Nothing happened
+2016-01-09 21:05:27 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:05:27 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:05:27 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:05:27 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:05:27 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:05:27 ERROR App:14 - No such user exists
+2016-01-09 21:05:27 FATAL App:16 - Unknown username XXX
+2016-01-09 21:05:27 WARN  App:15 - No access information, skipping
+2016-01-09 21:05:27 WARN  App:15 - No volume information, skipping
+2016-01-09 21:05:27 INFO  App:13 - Success
+2016-01-09 21:05:27 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:05:27 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:05:27 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:05:27 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:05:27 ERROR App:14 - Invalid password
+2016-01-09 21:05:27 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:05:27 WARN  App:15 - No access information, skipping
+2016-01-09 21:05:27 WARN  App:15 - No volume information, skipping
+2016-01-09 21:05:27 INFO  App:13 - Success
+2016-01-09 21:07:49 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:07:49 INFO  App:13 - Nothing happened
+2016-01-09 21:07:49 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:07:49 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:07:49 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:07:49 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:07:49 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:07:49 ERROR App:14 - No such user exists
+2016-01-09 21:07:49 FATAL App:16 - Unknown username XXX
+2016-01-09 21:07:49 WARN  App:15 - No access information, skipping
+2016-01-09 21:07:49 WARN  App:15 - No volume information, skipping
+2016-01-09 21:07:49 INFO  App:13 - Program ended with code 1
+2016-01-09 21:07:49 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:07:49 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:07:49 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:07:49 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:07:49 ERROR App:14 - Invalid password
+2016-01-09 21:07:49 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:07:49 WARN  App:15 - No access information, skipping
+2016-01-09 21:07:49 WARN  App:15 - No volume information, skipping
+2016-01-09 21:07:49 INFO  App:13 - Program ended with code 1
+2016-01-09 21:08:08 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:08:08 INFO  App:13 - Nothing happened
+2016-01-09 21:08:08 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:08:08 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:08:08 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:08:08 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:08:08 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:08:08 ERROR App:14 - No such user exists
+2016-01-09 21:08:08 FATAL App:16 - Unknown username XXX
+2016-01-09 21:08:08 WARN  App:15 - No access information, skipping
+2016-01-09 21:08:08 WARN  App:15 - No volume information, skipping
+2016-01-09 21:08:08 INFO  App:13 - Program ended with code 1
+2016-01-09 21:08:08 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:08:08 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:08:08 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:08:08 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:08:08 ERROR App:14 - Invalid password
+2016-01-09 21:08:08 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:08:08 WARN  App:15 - No access information, skipping
+2016-01-09 21:08:08 WARN  App:15 - No volume information, skipping
+2016-01-09 21:08:08 INFO  App:13 - Program ended with code 2
+2016-01-09 21:08:08 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:08:08 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:08:08 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:08:08 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:08:08 WARN  App:15 - No access information, skipping
+2016-01-09 21:08:08 WARN  App:15 - No volume information, skipping
+2016-01-09 21:08:08 INFO  App:13 - Program ended with code 2
+2016-01-09 21:09:26 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:09:26 INFO  App:13 - Nothing happened
+2016-01-09 21:09:26 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:09:26 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:09:26 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:09:26 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:09:26 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:09:26 ERROR App:14 - No such user exists
+2016-01-09 21:09:26 FATAL App:16 - Unknown username XXX
+2016-01-09 21:09:26 WARN  App:15 - No access information, skipping
+2016-01-09 21:09:26 WARN  App:15 - No volume information, skipping
+2016-01-09 21:09:26 INFO  App:13 - Program ended with code 0
+2016-01-09 21:10:01 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:10:01 INFO  App:13 - Nothing happened
+2016-01-09 21:10:01 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:10:01 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:10:01 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:10:01 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:10:01 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:10:01 ERROR App:14 - No such user exists
+2016-01-09 21:10:01 FATAL App:16 - Unknown username XXX
+2016-01-09 21:10:01 WARN  App:15 - No access information, skipping
+2016-01-09 21:10:01 WARN  App:15 - No volume information, skipping
+2016-01-09 21:10:01 INFO  App:13 - Program ended with code 0
+2016-01-09 21:11:17 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:11:17 INFO  App:13 - Nothing happened
+2016-01-09 21:11:17 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:11:17 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:11:17 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:11:17 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:11:17 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:11:17 ERROR App:14 - No such user exists
+2016-01-09 21:11:17 FATAL App:16 - Unknown username XXX
+2016-01-09 21:11:17 WARN  App:15 - No access information, skipping
+2016-01-09 21:11:17 WARN  App:15 - No volume information, skipping
+2016-01-09 21:11:17 INFO  App:13 - Program ended with code 0
+2016-01-09 21:13:29 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:13:29 INFO  App:13 - Nothing happened
+2016-01-09 21:13:29 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:13:29 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:13:29 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:13:29 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:13:29 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:13:29 ERROR App:14 - No such user exists
+2016-01-09 21:13:29 FATAL App:16 - Unknown username XXX
+2016-01-09 21:13:29 WARN  App:15 - No access information, skipping
+2016-01-09 21:13:29 WARN  App:15 - No volume information, skipping
+2016-01-09 21:13:29 INFO  App:13 - Program ended with code 1
+2016-01-09 21:13:29 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:13:29 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:13:29 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:13:29 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:13:29 ERROR App:14 - No such user exists
+2016-01-09 21:13:29 FATAL App:16 - Unknown username jdoe
+2016-01-09 21:13:29 WARN  App:15 - No access information, skipping
+2016-01-09 21:13:29 WARN  App:15 - No volume information, skipping
+2016-01-09 21:13:29 INFO  App:13 - Program ended with code 1
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:14:19 INFO  App:13 - Nothing happened
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:14:19 INFO  App:13 - Nothing happened
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:14:19 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:14:19 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:14:19 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:14:19 ERROR App:14 - No such user exists
+2016-01-09 21:14:19 FATAL App:16 - Unknown username XXX
+2016-01-09 21:14:19 WARN  App:15 - No access information, skipping
+2016-01-09 21:14:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:14:19 INFO  App:13 - Program ended with code 1
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:14:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:14:19 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:14:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:14:19 ERROR App:14 - Invalid password
+2016-01-09 21:14:19 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:14:19 WARN  App:15 - No access information, skipping
+2016-01-09 21:14:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:14:19 INFO  App:13 - Program ended with code 2
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:14:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:14:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:14:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:14:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:14:19 WARN  App:15 - No access information, skipping
+2016-01-09 21:14:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:14:19 INFO  App:13 - Program ended with code 0
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:14:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:14:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:14:19 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:14:19 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:14:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:14:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:14:19 FATAL App:16 - Invalid role supplied
+2016-01-09 21:14:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:14:19 INFO  App:13 - Program ended with code 0
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-09 21:14:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:14:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:14:19 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:14:19 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:14:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:14:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:14:19 FATAL App:16 - Invalid role supplied
+2016-01-09 21:14:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:14:19 INFO  App:13 - Program ended with code 0
+2016-01-09 21:14:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-09 21:14:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:14:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:14:19 DEBUG App:12 - Supplied ROLE field: XXX
+2016-01-09 21:14:19 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:14:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:14:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:14:19 FATAL App:16 - Invalid role supplied
+2016-01-09 21:14:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:14:19 INFO  App:13 - Program ended with code 0
+2016-01-09 21:23:40 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:23:40 INFO  App:13 - Nothing happened
+2016-01-09 21:23:40 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:23:40 INFO  App:13 - Nothing happened
+2016-01-09 21:23:40 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:23:40 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:23:40 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:23:40 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:23:40 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:23:40 ERROR App:14 - No such user exists
+2016-01-09 21:23:40 FATAL App:16 - Unknown username XXX
+2016-01-09 21:23:40 WARN  App:15 - No access information, skipping
+2016-01-09 21:23:40 WARN  App:15 - No volume information, skipping
+2016-01-09 21:23:40 INFO  App:13 - Program ended with code 0
+2016-01-09 21:26:15 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:26:15 INFO  App:13 - Nothing happened
+2016-01-09 21:26:15 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:26:15 INFO  App:13 - Nothing happened
+2016-01-09 21:26:15 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:26:15 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:26:15 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:26:15 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:26:15 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:26:15 ERROR App:14 - No such user exists
+2016-01-09 21:26:15 FATAL App:16 - Unknown username XXX
+2016-01-09 21:26:15 WARN  App:15 - No access information, skipping
+2016-01-09 21:26:15 WARN  App:15 - No volume information, skipping
+2016-01-09 21:26:15 INFO  App:13 - Program ended with code 1
+2016-01-09 21:26:15 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:26:15 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:26:15 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:26:15 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:26:15 ERROR App:14 - Invalid password
+2016-01-09 21:26:15 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:26:15 WARN  App:15 - No access information, skipping
+2016-01-09 21:26:15 WARN  App:15 - No volume information, skipping
+2016-01-09 21:26:15 INFO  App:13 - Program ended with code 2
+2016-01-09 21:26:15 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:26:15 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:26:15 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:26:15 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:26:15 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:26:15 WARN  App:15 - No access information, skipping
+2016-01-09 21:26:15 WARN  App:15 - No volume information, skipping
+2016-01-09 21:26:15 INFO  App:13 - Program ended with code 0
+2016-01-09 21:26:15 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:26:15 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:26:15 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:26:15 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:26:15 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:26:15 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:26:15 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:26:15 FATAL App:16 - Invalid role supplied
+2016-01-09 21:26:15 WARN  App:15 - No volume information, skipping
+2016-01-09 21:26:15 INFO  App:13 - Program ended with code 3
+2016-01-09 21:27:03 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:27:03 INFO  App:13 - Nothing happened
+2016-01-09 21:27:03 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:27:03 INFO  App:13 - Nothing happened
+2016-01-09 21:27:03 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:27:03 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:27:03 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:27:03 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:27:03 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:27:03 ERROR App:14 - No such user exists
+2016-01-09 21:27:03 FATAL App:16 - Unknown username XXX
+2016-01-09 21:27:03 WARN  App:15 - No access information, skipping
+2016-01-09 21:27:03 WARN  App:15 - No volume information, skipping
+2016-01-09 21:27:03 INFO  App:13 - Program ended with code 1
+2016-01-09 21:27:03 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:27:03 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:27:03 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:27:03 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:27:03 ERROR App:14 - Invalid password
+2016-01-09 21:27:03 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:27:03 WARN  App:15 - No access information, skipping
+2016-01-09 21:27:03 WARN  App:15 - No volume information, skipping
+2016-01-09 21:27:03 INFO  App:13 - Program ended with code 2
+2016-01-09 21:27:03 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:27:03 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:27:03 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:27:03 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:27:03 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:27:03 WARN  App:15 - No access information, skipping
+2016-01-09 21:27:03 WARN  App:15 - No volume information, skipping
+2016-01-09 21:27:03 INFO  App:13 - Program ended with code 0
+2016-01-09 21:27:03 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:27:03 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:27:03 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:27:03 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:27:03 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:27:03 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:27:03 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:27:03 FATAL App:16 - No access
+2016-01-09 21:27:03 WARN  App:15 - No volume information, skipping
+2016-01-09 21:27:03 INFO  App:13 - Program ended with code 4
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:29:59 INFO  App:13 - Nothing happened
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:29:59 INFO  App:13 - Nothing happened
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:29:59 ERROR App:14 - No such user exists
+2016-01-09 21:29:59 FATAL App:16 - Unknown username XXX
+2016-01-09 21:29:59 WARN  App:15 - No access information, skipping
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 1
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:29:59 ERROR App:14 - Invalid password
+2016-01-09 21:29:59 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:29:59 WARN  App:15 - No access information, skipping
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 2
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 WARN  App:15 - No access information, skipping
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 0
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a rle = 1/1
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 0
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a rle = 1/1
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 0
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: XXX
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a rle = 1/0
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a.b rle = 1/0
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b/a rle = 2/0
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b/a.b rle = 2/0
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a rle = 4/0
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a.b rle = 4/0
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a rle = 4/0
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a.b rle = 4/0
+2016-01-09 21:29:59 FATAL App:16 - Invalid role supplied
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 3
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: XXX
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/XXX rle = 1/1
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b/XXX rle = 2/1
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/XXX rle = 4/1
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/XXX rle = 4/1
+2016-01-09 21:29:59 FATAL App:16 - No access
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 4
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a rle = 1/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b/a rle = 2/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a rle = 4/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a rle = 4/2
+2016-01-09 21:29:59 FATAL App:16 - No access
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 4
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: a.bc
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a rle = 1/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a.bc rle = 1/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b/a rle = 2/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b/a.bc rle = 2/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a rle = 4/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a.bc rle = 4/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a rle = 4/2
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a.b.c/a.bc rle = 4/2
+2016-01-09 21:29:59 FATAL App:16 - No access
+2016-01-09 21:29:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 4
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:29:59 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:29:59 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:29:59 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a rle = 1/1
+2016-01-09 21:29:59 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:29:59 WARN  App:15 - No start date information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:29:59 WARN  App:15 - No end date information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 0
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:29:59 DEBUG App:12 - Supplied DATE START field: 01-01-2015
+2016-01-09 21:29:59 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:29:59 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a rle = 1/1
+2016-01-09 21:29:59 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:29:59 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:29:59 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:29:59 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 5
+2016-01-09 21:29:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-09 21:29:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:29:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:29:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:29:59 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:29:59 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:29:59 DEBUG App:12 - Supplied VOLUME field: XXX
+2016-01-09 21:29:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:29:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:29:59 DEBUG App:12 - Checking. res = a/a rle = 1/1
+2016-01-09 21:29:59 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:29:59 WARN  App:15 - No start date information, skipping
+2016-01-09 21:29:59 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:29:59 WARN  App:15 - No end date information, skipping
+2016-01-09 21:29:59 FATAL App:16 - Incorrect volume supplied
+2016-01-09 21:29:59 INFO  App:13 - Program ended with code 5
+2016-01-09 21:30:58 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:30:58 INFO  App:13 - Nothing happened
+2016-01-09 21:30:58 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:30:58 INFO  App:13 - Nothing happened
+2016-01-09 21:30:58 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:30:58 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:30:58 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:30:58 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:30:58 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:30:58 ERROR App:14 - No such user exists
+2016-01-09 21:30:58 FATAL App:16 - Unknown username XXX
+2016-01-09 21:30:58 WARN  App:15 - No access information, skipping
+2016-01-09 21:30:58 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:58 INFO  App:13 - Program ended with code 1
+2016-01-09 21:30:58 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:30:58 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:58 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:30:58 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:30:58 ERROR App:14 - Invalid password
+2016-01-09 21:30:58 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:30:58 WARN  App:15 - No access information, skipping
+2016-01-09 21:30:58 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:58 INFO  App:13 - Program ended with code 2
+2016-01-09 21:30:58 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:30:58 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:58 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:58 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:58 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 WARN  App:15 - No access information, skipping
+2016-01-09 21:30:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 0
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:30:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 0
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:30:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 0
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: XXX
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:30:59 FATAL App:16 - Invalid role supplied
+2016-01-09 21:30:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 3
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: XXX
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:30:59 FATAL App:16 - No access
+2016-01-09 21:30:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 4
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:30:59 FATAL App:16 - No access
+2016-01-09 21:30:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 4
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: a.bc
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:30:59 FATAL App:16 - No access
+2016-01-09 21:30:59 WARN  App:15 - No volume information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 4
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:30:59 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:30:59 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:30:59 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:30:59 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:30:59 WARN  App:15 - No start date information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:30:59 WARN  App:15 - No end date information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 0
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:30:59 DEBUG App:12 - Supplied DATE START field: 01-01-2015
+2016-01-09 21:30:59 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:30:59 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:30:59 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:30:59 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:30:59 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:30:59 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 5
+2016-01-09 21:30:59 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-09 21:30:59 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:30:59 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:30:59 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:30:59 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:30:59 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:30:59 DEBUG App:12 - Supplied VOLUME field: XXX
+2016-01-09 21:30:59 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:30:59 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:30:59 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:30:59 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:30:59 WARN  App:15 - No start date information, skipping
+2016-01-09 21:30:59 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:30:59 WARN  App:15 - No end date information, skipping
+2016-01-09 21:30:59 FATAL App:16 - Incorrect volume supplied
+2016-01-09 21:30:59 INFO  App:13 - Program ended with code 5
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:31:32 INFO  App:13 - Nothing happened
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:31:32 INFO  App:13 - Nothing happened
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:31:32 ERROR App:14 - No such user exists
+2016-01-09 21:31:32 FATAL App:16 - Unknown username XXX
+2016-01-09 21:31:32 WARN  App:15 - No access information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 1
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:31:32 ERROR App:14 - Invalid password
+2016-01-09 21:31:32 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:31:32 WARN  App:15 - No access information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 2
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 WARN  App:15 - No access information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 0
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 0
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 0
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: XXX
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:31:32 FATAL App:16 - Invalid role supplied
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 3
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: XXX
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:31:32 FATAL App:16 - No access
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 4
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:31:32 FATAL App:16 - No access
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 4
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: a.bc
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:31:32 FATAL App:16 - No access
+2016-01-09 21:31:32 WARN  App:15 - No start date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No end date information, skipping
+2016-01-09 21:31:32 WARN  App:15 - No volume information, skipping
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 4
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:31:32 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:31:32 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:31:32 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:31:32 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:31:32 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 0
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:31:32 DEBUG App:12 - Supplied DATE START field: 01-01-2015
+2016-01-09 21:31:32 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:31:32 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:31:32 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:31:32 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:31:32 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:31:32 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 5
+2016-01-09 21:31:32 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-09 21:31:32 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:31:32 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:31:32 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:31:32 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:31:32 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:31:32 DEBUG App:12 - Supplied VOLUME field: XXX
+2016-01-09 21:31:32 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:31:32 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:31:32 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:31:32 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:31:32 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:31:32 FATAL App:16 - Incorrect volume supplied
+2016-01-09 21:31:32 INFO  App:13 - Program ended with code 5
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:32:56 INFO  App:13 - Nothing happened
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:32:56 INFO  App:13 - Nothing happened
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:32:56 ERROR App:14 - No such user exists
+2016-01-09 21:32:56 FATAL App:16 - Unknown username XXX
+2016-01-09 21:32:56 WARN  App:15 - No access information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 1
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:32:56 ERROR App:14 - Invalid password
+2016-01-09 21:32:56 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:32:56 WARN  App:15 - No access information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 2
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 WARN  App:15 - No access information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 0
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 0
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 0
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: XXX
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:32:56 FATAL App:16 - Invalid role supplied
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 3
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: XXX
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:32:56 FATAL App:16 - No access
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 4
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:32:56 FATAL App:16 - No access
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 4
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: a.bc
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:32:56 FATAL App:16 - No access
+2016-01-09 21:32:56 WARN  App:15 - No start date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No end date information, skipping
+2016-01-09 21:32:56 WARN  App:15 - No volume information, skipping
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 4
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:32:56 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:32:56 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:32:56 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:32:56 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:32:56 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 0
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:32:56 DEBUG App:12 - Supplied DATE START field: 01-01-2015
+2016-01-09 21:32:56 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:32:56 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:32:56 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:32:56 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:32:56 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:32:56 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 5
+2016-01-09 21:32:56 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-09 21:32:56 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:32:56 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:32:56 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:32:56 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:32:56 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:32:56 DEBUG App:12 - Supplied VOLUME field: XXX
+2016-01-09 21:32:56 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:32:56 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:32:56 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:32:56 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:32:56 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:32:56 FATAL App:16 - Incorrect volume supplied
+2016-01-09 21:32:56 INFO  App:13 - Program ended with code 5
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:34:19 INFO  App:13 - Nothing happened
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:34:19 INFO  App:13 - Nothing happened
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:34:19 ERROR App:14 - No such user exists
+2016-01-09 21:34:19 FATAL App:16 - Unknown username XXX
+2016-01-09 21:34:19 WARN  App:15 - No access information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 1
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:34:19 ERROR App:14 - Invalid password
+2016-01-09 21:34:19 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:34:19 WARN  App:15 - No access information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 2
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 WARN  App:15 - No access information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 0
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:34:19 INFO  App:13 - Access granted
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 0
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:34:19 INFO  App:13 - Access granted
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 0
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: XXX
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:34:19 FATAL App:16 - Invalid role supplied
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 3
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: XXX
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:34:19 FATAL App:16 - No access
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 4
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:34:19 FATAL App:16 - No access
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 4
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: a.bc
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:34:19 FATAL App:16 - No access
+2016-01-09 21:34:19 WARN  App:15 - No start date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No end date information, skipping
+2016-01-09 21:34:19 WARN  App:15 - No volume information, skipping
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 4
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:34:19 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:34:19 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:34:19 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:34:19 INFO  App:13 - Access granted
+2016-01-09 21:34:19 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:34:19 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 0
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:34:19 DEBUG App:12 - Supplied DATE START field: 01-01-2015
+2016-01-09 21:34:19 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:34:19 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:34:19 INFO  App:13 - Access granted
+2016-01-09 21:34:19 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:34:19 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:34:19 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:34:19 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 5
+2016-01-09 21:34:19 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-09 21:34:19 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:34:19 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:34:19 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:34:19 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:34:19 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:34:19 DEBUG App:12 - Supplied VOLUME field: XXX
+2016-01-09 21:34:19 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:34:19 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:34:19 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:34:19 INFO  App:13 - Access granted
+2016-01-09 21:34:19 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:34:19 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:34:19 FATAL App:16 - Incorrect volume supplied
+2016-01-09 21:34:19 INFO  App:13 - Program ended with code 5
+2016-01-09 21:35:55 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:35:55 INFO  App:13 - Nothing happened
+2016-01-09 21:36:24 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:36:24 INFO  App:13 - Nothing happened
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:36:39 INFO  App:13 - Nothing happened
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:36:39 ERROR App:14 - No such user exists
+2016-01-09 21:36:39 FATAL App:16 - Unknown username XXX
+2016-01-09 21:36:39 WARN  App:15 - No access information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 1
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:36:39 ERROR App:14 - Invalid password
+2016-01-09 21:36:39 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:36:39 WARN  App:15 - No access information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 2
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 WARN  App:15 - No access information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 0
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:36:39 INFO  App:13 - Access granted
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 0
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:36:39 INFO  App:13 - Access granted
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 0
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: XXX
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.b" rle = 1 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.b" rle = 2 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 0
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.b" rle = 4 vs 0
+2016-01-09 21:36:39 FATAL App:16 - Invalid role supplied
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 3
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: XXX
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "XXX" rle = 1 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "XXX" rle = 2 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "XXX" rle = 4 vs 1
+2016-01-09 21:36:39 FATAL App:16 - No access
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 4
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 FATAL App:16 - No access
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 4
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: a.bc
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a.bc" rle = 1 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b" vs "a.bc" rle = 2 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a" rle = 4 vs 2
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a.b.c" vs "a.bc" rle = 4 vs 2
+2016-01-09 21:36:39 FATAL App:16 - No access
+2016-01-09 21:36:39 WARN  App:15 - No start date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No end date information, skipping
+2016-01-09 21:36:39 WARN  App:15 - No volume information, skipping
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 4
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:36:39 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:36:39 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:36:39 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:36:39 INFO  App:13 - Access granted
+2016-01-09 21:36:39 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:36:39 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 0
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:36:39 DEBUG App:12 - Supplied DATE START field: 01-01-2015
+2016-01-09 21:36:39 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:36:39 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:36:39 INFO  App:13 - Access granted
+2016-01-09 21:36:39 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:36:39 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:36:39 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:36:39 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 5
+2016-01-09 21:36:39 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-09 21:36:39 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:36:39 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:36:39 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:36:39 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:36:39 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:36:39 DEBUG App:12 - Supplied VOLUME field: XXX
+2016-01-09 21:36:39 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:36:39 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:36:39 DEBUG App:12 - Checking. res = "a" vs "a" rle = 1 vs 1
+2016-01-09 21:36:39 INFO  App:13 - Access granted
+2016-01-09 21:36:39 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:36:39 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:36:39 FATAL App:16 - Incorrect volume supplied
+2016-01-09 21:36:39 INFO  App:13 - Program ended with code 5
+2016-01-09 21:38:41 INFO  App:13 - Supplied arguments: 
+2016-01-09 21:38:41 INFO  App:13 - Nothing happened
+2016-01-09 21:38:41 INFO  App:13 - Supplied arguments: -h 
+2016-01-09 21:38:41 INFO  App:13 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-09 21:38:41 DEBUG App:12 - Supplied LOGIN field: XXX
+2016-01-09 21:38:41 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:38:41 DEBUG App:12 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-09 21:38:41 ERROR App:14 - No such user exists
+2016-01-09 21:38:41 FATAL App:16 - Unknown username XXX
+2016-01-09 21:38:41 WARN  App:15 - No access information, skipping
+2016-01-09 21:38:41 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:41 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 1
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: XXXX
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-09 21:38:42 ERROR App:14 - Invalid password
+2016-01-09 21:38:42 FATAL App:16 - Incorrect password XXXX
+2016-01-09 21:38:42 WARN  App:15 - No access information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 2
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 WARN  App:15 - No access information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 0
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 INFO  App:13 - Access granted
+2016-01-09 21:38:42 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 0
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 INFO  App:13 - Access granted
+2016-01-09 21:38:42 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 0
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: XXX
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 FATAL App:16 - Invalid role supplied
+2016-01-09 21:38:42 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 3
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: XXX
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 FATAL App:16 - No access
+2016-01-09 21:38:42 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 4
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: a
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 FATAL App:16 - No access
+2016-01-09 21:38:42 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 4
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: WRITE
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: a.bc
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 FATAL App:16 - No access
+2016-01-09 21:38:42 WARN  App:15 - No start date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No end date information, skipping
+2016-01-09 21:38:42 WARN  App:15 - No volume information, skipping
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 4
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:38:42 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:38:42 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:38:42 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 INFO  App:13 - Access granted
+2016-01-09 21:38:42 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:38:42 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 0
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:38:42 DEBUG App:12 - Supplied DATE START field: 01-01-2015
+2016-01-09 21:38:42 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:38:42 DEBUG App:12 - Supplied VOLUME field: 100
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 INFO  App:13 - Access granted
+2016-01-09 21:38:42 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:38:42 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:38:42 ERROR App:14 - Invalid data information supplied
+2016-01-09 21:38:42 FATAL App:16 - Incorrect date supplied
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 5
+2016-01-09 21:38:42 INFO  App:13 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-09 21:38:42 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:38:42 DEBUG App:12 - Supplied PASS field: sup3rpaZZ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied ROLE field: READ
+2016-01-09 21:38:42 DEBUG App:12 - Supplied RES field: a.b
+2016-01-09 21:38:42 DEBUG App:12 - Supplied DATE START field: 2015-01-01
+2016-01-09 21:38:42 DEBUG App:12 - Supplied DATE END field: 2015-12-31
+2016-01-09 21:38:42 DEBUG App:12 - Supplied VOLUME field: XXX
+2016-01-09 21:38:42 DEBUG App:12 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-09 21:38:42 INFO  App:13 - Welcome, John Doe
+2016-01-09 21:38:42 INFO  App:13 - Access granted
+2016-01-09 21:38:42 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:38:42 INFO  App:13 - Supplied date: 2015-01-01 - OK
+2016-01-09 21:38:42 FATAL App:16 - Incorrect volume supplied
+2016-01-09 21:38:42 INFO  App:13 - Program ended with code 5
+2016-01-09 21:41:13 INFO  App:13 - Supplied arguments: -login jdoe -pass XXX 
+2016-01-09 21:41:13 DEBUG App:12 - Supplied LOGIN field: jdoe
+2016-01-09 21:41:13 DEBUG App:12 - Supplied PASS field: XXX
+2016-01-09 21:41:13 DEBUG App:12 - Trying to sign in with : login:jdoe pass:XXX
+2016-01-09 21:41:13 ERROR App:14 - Invalid password
+2016-01-09 21:41:13 FATAL App:16 - Incorrect password XXX
+2016-01-09 21:41:13 WARN  App:15 - No access information, skipping
+2016-01-09 21:41:13 WARN  App:15 - No start date information, skipping
+2016-01-09 21:41:13 WARN  App:15 - No end date information, skipping
+2016-01-09 21:41:13 WARN  App:15 - No volume information, skipping
+2016-01-09 21:41:13 INFO  App:13 - Program ended with code 2
