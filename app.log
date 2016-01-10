@@ -2930,3 +2930,487 @@
 2016-01-10 18:44:42 INFO  App:13 - Nothing happened
 2016-01-10 18:44:58 INFO  App:13 - Supplied arguments: 
 2016-01-10 18:44:58 INFO  App:13 - Nothing happened
+2016-01-10 18:51:02 INFO  App:12 - Supplied arguments: -login jdoe -pass XXX 
+2016-01-10 18:51:02 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 18:51:02 DEBUG App:11 - Supplied PASS field: XXX
+2016-01-10 18:51:02 DEBUG App:11 - Trying to sign in with : login:jdoe pass:XXX
+2016-01-10 18:51:02 ERROR App:13 - Invalid password
+2016-01-10 18:51:02 FATAL App:15 - Error 2 - Incorrect password XXX
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: 
+2016-01-10 19:29:44 INFO  App:12 - Nothing happened
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -h 
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: XXX
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: XXXX
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-10 19:29:44 ERROR App:13 - No such user exists
+2016-01-10 19:29:44 FATAL App:15 - Error 1 - Unknown username XXX
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: XXXX
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-10 19:29:44 ERROR App:13 - Invalid password
+2016-01-10 19:29:44 FATAL App:15 - Error 2 - Incorrect password XXXX
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 WARN  App:14 - No access information, skipping
+2016-01-10 19:29:44 WARN  App:14 - No start date information, skipping
+2016-01-10 19:29:44 WARN  App:14 - No end date information, skipping
+2016-01-10 19:29:44 WARN  App:14 - No volume information, skipping
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: a
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 INFO  App:12 - Access granted
+2016-01-10 19:29:44 WARN  App:14 - No start date information, skipping
+2016-01-10 19:29:44 WARN  App:14 - No end date information, skipping
+2016-01-10 19:29:44 WARN  App:14 - No volume information, skipping
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 INFO  App:12 - Access granted
+2016-01-10 19:29:44 WARN  App:14 - No start date information, skipping
+2016-01-10 19:29:44 WARN  App:14 - No end date information, skipping
+2016-01-10 19:29:44 WARN  App:14 - No volume information, skipping
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: XXX
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 FATAL App:15 - Error 3 - Invalid role supplied
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: XXX
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 FATAL App:15 - Error 4 - No access
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: WRITE
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: a
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 FATAL App:15 - Error 4 - No access
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: WRITE
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: a.bc
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 FATAL App:15 - Error 4 - No access
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:29:44 DEBUG App:11 - Supplied DATE START field: 2015-01-01
+2016-01-10 19:29:44 DEBUG App:11 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:29:44 DEBUG App:11 - Supplied VOLUME field: 100
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 INFO  App:12 - Access granted
+2016-01-10 19:29:44 INFO  App:12 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:29:44 INFO  App:12 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:29:44 DEBUG App:11 - Supplied DATE START field: 01-01-2015
+2016-01-10 19:29:44 DEBUG App:11 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:29:44 DEBUG App:11 - Supplied VOLUME field: 100
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 INFO  App:12 - Access granted
+2016-01-10 19:29:44 ERROR App:13 - Invalid data information supplied
+2016-01-10 19:29:44 FATAL App:15 - Error 5 - Incorrect date supplied
+2016-01-10 19:29:44 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-10 19:29:44 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:29:44 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:29:44 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:29:44 DEBUG App:11 - Supplied DATE START field: 2015-01-01
+2016-01-10 19:29:44 DEBUG App:11 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:29:44 DEBUG App:11 - Supplied VOLUME field: XXX
+2016-01-10 19:29:44 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:29:44 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:29:44 INFO  App:12 - Access granted
+2016-01-10 19:29:44 INFO  App:12 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:29:44 INFO  App:12 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:29:44 FATAL App:15 - Error 5 - Incorrect volume supplied
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: 
+2016-01-10 19:30:41 INFO  App:12 - Nothing happened
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -h 
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: XXX
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: XXXX
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-10 19:30:41 ERROR App:13 - No such user exists
+2016-01-10 19:30:41 FATAL App:15 - Error 1 - Unknown username XXX
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: XXXX
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-10 19:30:41 ERROR App:13 - Invalid password
+2016-01-10 19:30:41 FATAL App:15 - Error 2 - Incorrect password XXXX
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 WARN  App:14 - No access information, skipping
+2016-01-10 19:30:41 WARN  App:14 - No start date information, skipping
+2016-01-10 19:30:41 WARN  App:14 - No end date information, skipping
+2016-01-10 19:30:41 WARN  App:14 - No volume information, skipping
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: a
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 INFO  App:12 - Access granted
+2016-01-10 19:30:41 WARN  App:14 - No start date information, skipping
+2016-01-10 19:30:41 WARN  App:14 - No end date information, skipping
+2016-01-10 19:30:41 WARN  App:14 - No volume information, skipping
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 INFO  App:12 - Access granted
+2016-01-10 19:30:41 WARN  App:14 - No start date information, skipping
+2016-01-10 19:30:41 WARN  App:14 - No end date information, skipping
+2016-01-10 19:30:41 WARN  App:14 - No volume information, skipping
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: XXX
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 FATAL App:15 - Error 3 - Invalid role supplied
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: XXX
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 FATAL App:15 - Error 4 - No access
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: WRITE
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: a
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 FATAL App:15 - Error 4 - No access
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: WRITE
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: a.bc
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 FATAL App:15 - Error 4 - No access
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:30:41 DEBUG App:11 - Supplied DATE START field: 2015-01-01
+2016-01-10 19:30:41 DEBUG App:11 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:30:41 DEBUG App:11 - Supplied VOLUME field: 100
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 INFO  App:12 - Access granted
+2016-01-10 19:30:41 INFO  App:12 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:30:41 INFO  App:12 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:30:41 DEBUG App:11 - Supplied DATE START field: 01-01-2015
+2016-01-10 19:30:41 DEBUG App:11 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:30:41 DEBUG App:11 - Supplied VOLUME field: 100
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 INFO  App:12 - Access granted
+2016-01-10 19:30:41 ERROR App:13 - Invalid data information supplied
+2016-01-10 19:30:41 FATAL App:15 - Error 5 - Incorrect date supplied
+2016-01-10 19:30:41 INFO  App:12 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-10 19:30:41 DEBUG App:11 - Supplied LOGIN field: jdoe
+2016-01-10 19:30:41 DEBUG App:11 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied ROLE field: READ
+2016-01-10 19:30:41 DEBUG App:11 - Supplied RES field: a.b
+2016-01-10 19:30:41 DEBUG App:11 - Supplied DATE START field: 2015-01-01
+2016-01-10 19:30:41 DEBUG App:11 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:30:41 DEBUG App:11 - Supplied VOLUME field: XXX
+2016-01-10 19:30:41 DEBUG App:11 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:30:41 INFO  App:12 - Welcome, John Doe
+2016-01-10 19:30:41 INFO  App:12 - Access granted
+2016-01-10 19:30:41 INFO  App:12 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:30:41 INFO  App:12 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:30:41 FATAL App:15 - Error 5 - Incorrect volume supplied
+2016-01-10 19:30:54 INFO  App:12 - Supplied arguments: 
+2016-01-10 19:30:54 INFO  App:12 - Nothing happened
+2016-01-10 19:55:09 INFO  App:19 - Supplied arguments: 
+2016-01-10 19:55:09 INFO  App:19 - Nothing happened
+2016-01-10 19:55:12 INFO  App:19 - Supplied arguments: 
+2016-01-10 19:55:12 INFO  App:19 - Nothing happened
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: 
+2016-01-10 19:56:09 INFO  App:19 - Nothing happened
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -h 
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: XXX
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: XXXX
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-10 19:56:09 ERROR App:24 - No such user exists
+2016-01-10 19:56:09 FATAL App:32 - Error 1 - Unknown username XXX
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: XXXX
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-10 19:56:09 ERROR App:24 - Invalid password
+2016-01-10 19:56:09 FATAL App:32 - Error 2 - Incorrect password XXXX
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 WARN  App:28 - No access information, skipping
+2016-01-10 19:56:09 WARN  App:28 - No start date information, skipping
+2016-01-10 19:56:09 WARN  App:28 - No end date information, skipping
+2016-01-10 19:56:09 WARN  App:28 - No volume information, skipping
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: a
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 INFO  App:19 - Access granted
+2016-01-10 19:56:09 WARN  App:28 - No start date information, skipping
+2016-01-10 19:56:09 WARN  App:28 - No end date information, skipping
+2016-01-10 19:56:09 WARN  App:28 - No volume information, skipping
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 INFO  App:19 - Access granted
+2016-01-10 19:56:09 WARN  App:28 - No start date information, skipping
+2016-01-10 19:56:09 WARN  App:28 - No end date information, skipping
+2016-01-10 19:56:09 WARN  App:28 - No volume information, skipping
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: XXX
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 FATAL App:32 - Error 3 - Invalid role supplied
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: XXX
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 FATAL App:32 - Error 4 - No access
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: WRITE
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: a
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 FATAL App:32 - Error 4 - No access
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: WRITE
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: a.bc
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 FATAL App:32 - Error 4 - No access
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 19:56:09 DEBUG App:13 - Supplied DATE START field: 2015-01-01
+2016-01-10 19:56:09 DEBUG App:13 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:56:09 DEBUG App:13 - Supplied VOLUME field: 100
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 INFO  App:19 - Access granted
+2016-01-10 19:56:09 INFO  App:19 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:56:09 INFO  App:19 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 19:56:09 DEBUG App:13 - Supplied DATE START field: 01-01-2015
+2016-01-10 19:56:09 DEBUG App:13 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:56:09 DEBUG App:13 - Supplied VOLUME field: 100
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 INFO  App:19 - Access granted
+2016-01-10 19:56:09 ERROR App:24 - Invalid data information supplied
+2016-01-10 19:56:09 FATAL App:32 - Error 5 - Incorrect date supplied
+2016-01-10 19:56:09 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-10 19:56:09 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 19:56:09 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 19:56:09 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 19:56:09 DEBUG App:13 - Supplied DATE START field: 2015-01-01
+2016-01-10 19:56:09 DEBUG App:13 - Supplied DATE END field: 2015-12-31
+2016-01-10 19:56:09 DEBUG App:13 - Supplied VOLUME field: XXX
+2016-01-10 19:56:09 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 19:56:09 INFO  App:19 - Welcome, John Doe
+2016-01-10 19:56:09 INFO  App:19 - Access granted
+2016-01-10 19:56:09 INFO  App:19 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:56:09 INFO  App:19 - Supplied date: 2015-01-01 - OK
+2016-01-10 19:56:09 FATAL App:32 - Error 5 - Incorrect volume supplied
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: 
+2016-01-10 20:06:10 INFO  App:19 - Nothing happened
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -h 
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login XXX -pass XXXX 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: XXX
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: XXXX
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:XXX pass:XXXX
+2016-01-10 20:06:10 ERROR App:24 - No such user exists
+2016-01-10 20:06:10 FATAL App:32 - Error 1 - Unknown username XXX
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass XXXX 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: XXXX
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:XXXX
+2016-01-10 20:06:10 ERROR App:24 - Invalid password
+2016-01-10 20:06:10 FATAL App:32 - Error 2 - Incorrect password XXXX
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:10 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:10 WARN  App:28 - No access information, skipping
+2016-01-10 20:06:10 WARN  App:28 - No start date information, skipping
+2016-01-10 20:06:10 WARN  App:28 - No end date information, skipping
+2016-01-10 20:06:10 WARN  App:28 - No volume information, skipping
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied RES field: a
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:10 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:10 INFO  App:19 - Access granted
+2016-01-10 20:06:10 WARN  App:28 - No start date information, skipping
+2016-01-10 20:06:10 WARN  App:28 - No end date information, skipping
+2016-01-10 20:06:10 WARN  App:28 - No volume information, skipping
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:10 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:10 INFO  App:19 - Access granted
+2016-01-10 20:06:10 WARN  App:28 - No start date information, skipping
+2016-01-10 20:06:10 WARN  App:28 - No end date information, skipping
+2016-01-10 20:06:10 WARN  App:28 - No volume information, skipping
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role XXX -res a.b 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied ROLE field: XXX
+2016-01-10 20:06:10 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:10 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:10 FATAL App:32 - Error 3 - Invalid role supplied
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res XXX 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied RES field: XXX
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:10 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:10 FATAL App:32 - Error 4 - No access
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied ROLE field: WRITE
+2016-01-10 20:06:10 DEBUG App:13 - Supplied RES field: a
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:10 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:10 FATAL App:32 - Error 4 - No access
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role WRITE -res a.bc 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied ROLE field: WRITE
+2016-01-10 20:06:10 DEBUG App:13 - Supplied RES field: a.bc
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:10 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:10 FATAL App:32 - Error 4 - No access
+2016-01-10 20:06:10 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol 100 
+2016-01-10 20:06:10 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:10 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 20:06:10 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 20:06:10 DEBUG App:13 - Supplied DATE START field: 2015-01-01
+2016-01-10 20:06:10 DEBUG App:13 - Supplied DATE END field: 2015-12-31
+2016-01-10 20:06:10 DEBUG App:13 - Supplied VOLUME field: 100
+2016-01-10 20:06:10 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:10 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:10 INFO  App:19 - Access granted
+2016-01-10 20:06:11 INFO  App:19 - Supplied date: 2015-01-01 - OK
+2016-01-10 20:06:11 INFO  App:19 - Supplied date: 2015-01-01 - OK
+2016-01-10 20:06:11 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 01-01-2015 -de 2015-12-31 -vol 100 
+2016-01-10 20:06:11 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:11 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:11 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 20:06:11 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 20:06:11 DEBUG App:13 - Supplied DATE START field: 01-01-2015
+2016-01-10 20:06:11 DEBUG App:13 - Supplied DATE END field: 2015-12-31
+2016-01-10 20:06:11 DEBUG App:13 - Supplied VOLUME field: 100
+2016-01-10 20:06:11 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:11 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:11 INFO  App:19 - Access granted
+2016-01-10 20:06:11 ERROR App:24 - Invalid data information supplied
+2016-01-10 20:06:11 FATAL App:32 - Error 5 - Incorrect date supplied
+2016-01-10 20:06:11 INFO  App:19 - Supplied arguments: -login jdoe -pass sup3rpaZZ -role READ -res a.b -ds 2015-01-01 -de 2015-12-31 -vol XXX 
+2016-01-10 20:06:11 DEBUG App:13 - Supplied LOGIN field: jdoe
+2016-01-10 20:06:11 DEBUG App:13 - Supplied PASS field: sup3rpaZZ
+2016-01-10 20:06:11 DEBUG App:13 - Supplied ROLE field: READ
+2016-01-10 20:06:11 DEBUG App:13 - Supplied RES field: a.b
+2016-01-10 20:06:11 DEBUG App:13 - Supplied DATE START field: 2015-01-01
+2016-01-10 20:06:11 DEBUG App:13 - Supplied DATE END field: 2015-12-31
+2016-01-10 20:06:11 DEBUG App:13 - Supplied VOLUME field: XXX
+2016-01-10 20:06:11 DEBUG App:13 - Trying to sign in with : login:jdoe pass:sup3rpaZZ
+2016-01-10 20:06:11 INFO  App:19 - Welcome, John Doe
+2016-01-10 20:06:11 INFO  App:19 - Access granted
+2016-01-10 20:06:11 INFO  App:19 - Supplied date: 2015-01-01 - OK
+2016-01-10 20:06:11 INFO  App:19 - Supplied date: 2015-01-01 - OK
+2016-01-10 20:06:11 FATAL App:32 - Error 5 - Incorrect volume supplied
