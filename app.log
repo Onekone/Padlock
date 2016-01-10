@@ -2926,3 +2926,7 @@
 2016-01-10 17:31:40 INFO  App:13 - Supplied date: 2015-01-01 - OK
 2016-01-10 17:31:40 INFO  App:13 - Supplied date: 2015-01-01 - OK
 2016-01-10 17:31:40 FATAL App:16 - Error 5 - Incorrect volume supplied
+2016-01-10 18:44:42 INFO  App:13 - Supplied arguments: 
+2016-01-10 18:44:42 INFO  App:13 - Nothing happened
+2016-01-10 18:44:58 INFO  App:13 - Supplied arguments: 
+2016-01-10 18:44:58 INFO  App:13 - Nothing happened
