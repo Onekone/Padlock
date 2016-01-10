@@ -2,6 +2,10 @@ package groupPadlock;
 
 import org.apache.log4j.Logger;
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
 /**
  * Hello world!
  */
@@ -32,22 +36,12 @@ public class App {
         logger.fatal (str);
     }
 
-
-    public static int hash(String word) {// per http://stackoverflow.com/questions/2624192/good-hash-function-for-strings
-        int hashValue = 7;
-        for (int i = 0; i < word.length (); i++) {
-            hashValue = hashValue * 31 + word.charAt (i);
-        }
-        return hashValue;
-    }
-
     static java.util.HashMap<String, String> loginSalt = new java.util.HashMap<String, String> ();
-    static java.util.HashMap<String, Integer> loginInformation = new java.util.HashMap<String, Integer> ();
+    static java.util.HashMap<String, String> loginInformation = new java.util.HashMap<String, String> ();
     static java.util.HashMap<String, String> loginNames = new java.util.HashMap<String, String> ();
     static java.util.HashMap<String, String> padlockArguments = new java.util.HashMap<String, String> ();
     static java.util.ArrayList<Access> loginRoles = new java.util.ArrayList<Access> ();
     public static int volume = 0;
-    public static int returnCode = 0;
 
     public static java.time.LocalDate padlockString2Data(String s) {
         try {
@@ -76,14 +70,32 @@ public class App {
                 + "   -h             - This help page\n");
     }
 
-    public static void padlockExit(String logNote, int statusCode) {
-        logFatal (logNote);
-        returnCode = statusCode;
+    private static String md5Custom(String st) {
+        MessageDigest messageDigest = null;
+        byte[] digest = new byte[0];
+
+        try {
+            messageDigest = MessageDigest.getInstance("MD5");
+            messageDigest.reset();
+            messageDigest.update(st.getBytes());
+            digest = messageDigest.digest();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+
+        BigInteger bigInt = new BigInteger(1, digest);
+        String md5Hex = bigInt.toString(16);
+
+        while (md5Hex.length() < 32) {
+            md5Hex = "0" + md5Hex;
+        }
+
+        return md5Hex;
     }
 
     public static int padlockAuth(String login, String password) {
         logDebug ("Trying to sign in with : login:" + login + " pass:" + password);
-        int convertedPassword = hash (loginSalt.get (login) + Integer.toString (hash (password)));
+
         if (login.equals ("") || login.equals (null)) {
             logError ("Missing username");
             return 1;
@@ -92,11 +104,11 @@ public class App {
             logError ("Missing password");
             return 2;
         } // Missing password
-        else if (! loginInformation.containsKey (login)) {
+        else if (!loginInformation.containsKey (login)) {
             logError ("No such user exists");
             return 3;
         } // Invalid login
-        else if (convertedPassword != loginInformation.get (login)) {
+        else if (! loginInformation.get(login).equals( md5Custom(loginSalt.get(login)+md5Custom(password))) ) {
             logError ("Invalid password");
             return 4;
         }
@@ -129,7 +141,7 @@ public class App {
             String res = loginRoles.get (i).path;
             int rle = loginRoles.get (i).role;
             for (int j = 0; j < explode.length; j++) {
-                if (res.equals (explode[j]) && roleInt == rle) {
+                if (res.equals (explode[j]) && roleInt == rle && lgn == login) {
                     logInfo ("Access granted");
                     return 0;
                 }
@@ -159,8 +171,8 @@ public class App {
         loginRoles.add (new Access ("jrow", "a.b.c", 4));
         loginRoles.add (new Access ("jdoe", "a.b.c", 4));
 
-        loginInformation.put ("jdoe", hash (loginSalt.get ("jdoe") + Integer.toString (hash ("sup3rpaZZ"))));
-        loginInformation.put ("jrow", hash (loginSalt.get ("jrow") + Integer.toString (hash ("Qweqrty12"))));
+        loginInformation.put ("jdoe", md5Custom(loginSalt.get ("jdoe") + md5Custom ("sup3rpaZZ")));
+        loginInformation.put ("jrow", md5Custom(loginSalt.get ("jrow") + md5Custom ("Qweqrty12")));
 
         // Основная программа
         // ШАГ 0: Отсортировать данные
