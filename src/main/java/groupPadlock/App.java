@@ -110,9 +110,7 @@ public class App {
 
     public static void main(String[] args)
     {
-        Server server = Server.createTcpServer(args).start();
         int exitCode = go(args);
-        server.stop();
         System.exit(exitCode);
     }
 

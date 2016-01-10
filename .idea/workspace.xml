@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83278e88-f51b-47ce-8b23-3e3f6e9b1323" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.log" afterPath="$PROJECT_DIR$/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/groupPadlock/App.java" afterPath="$PROJECT_DIR$/src/main/java/groupPadlock/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/groupPadlock/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/groupPadlock/AppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-groupPadlock.AppTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-groupPadlock.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/groupPadlock.AppTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/groupPadlock.AppTest.txt" />
     </list>
     <list id="815f01da-6dc9-48f6-a522-9e76ff6c7692" name="New changelist" comment="" />
     <ignored path="Padlock.iws" />
@@ -53,8 +44,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/groupPadlock/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5226782">
-              <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.587473">
+              <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -1276,8 +1267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/groupPadlock/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5226782">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.587473">
+          <caret line="112" column="32" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
           <folding />
         </state>
       </provider>
