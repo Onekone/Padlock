@@ -1,7 +1,6 @@
 package groupPadlock;
 
 import org.apache.log4j.Logger;
-import org.h2.jdbcx.JdbcDataSource;
 
 /**
  * Hello world!
@@ -111,7 +110,10 @@ public class App {
 
     public static void main(String[] args)
     {
-        System.exit(go(args));
+        Server server = Server.createTcpServer(args).start();
+        int exitCode = go(args);
+        server.stop();
+        System.exit(exitCode);
     }
 
     public static int go(String[] args) {
@@ -129,8 +131,7 @@ public class App {
 
         loginInformation.put ("jdoe", (loginSalt.get ("jdoe") + Integer.toString ("sup3rpaZZ".hashCode ())).hashCode ());
         loginInformation.put ("jrow", (loginSalt.get ("jrow") + Integer.toString ("Qweqrty12".hashCode ())).hashCode ());
-
-
+        
         // Основная программа
         // ШАГ 0: Отсортировать данные
 
@@ -200,58 +201,54 @@ public class App {
                     break;
                 default:
                     if (!showHelpOnce) {
+                        showHelpOnce = true;
                         showHelp ();
                     }
-                    showHelpOnce = true;
                     if (!args[i].equals("-h")) logError("Unknown field "+args[i]+" . Aborting...\n Nothing happened");
                     return 0;
             }
         }
 
-        if (combo1 != 3 && combo1 > 0) padlockExit("Not enough arguments supplied",1);
-        if (combo2 != 3 && combo2 > 0) padlockExit("Not enough arguments supplied",3);
-        if (combo3 != 7 && combo3 > 0) padlockExit("Not enough arguments supplied",5);
+        if (combo1 != 3 && combo1 > 0) {logFatal("Not enough arguments supplied"); return 1;}
+        if (combo2 != 3 && combo2 > 0) {logFatal("Not enough arguments supplied"); return 3;}
+        if (combo3 != 7 && combo3 > 0) {logFatal("Not enough arguments supplied"); return 5;}
 
         // ШАГ 1: Логинимся
 
         switch (padlockAuth (padlockArguments.get("login"), padlockArguments.get("pass"))) {
             case 1:case 3:
-                padlockExit("Unknown username "+padlockArguments.get("login"),1);
-                returnCode = 1;
-                break;
+                logFatal("Error 1 - Unknown username "+padlockArguments.get("login"));
+                return 1;
             case 2:case 4:
-                padlockExit("Incorrect password "+padlockArguments.get("pass"),2);
-                returnCode = 2;
-                break;
+                logFatal("Error 2 - Incorrect password "+padlockArguments.get("pass"));
+                return 2;
         }
 
         // ШАГ 2: Узнаем данные о ресурсе
         if (padlockArguments.containsKey("role") && padlockArguments.containsKey("res"))
         switch ( padlockAccess( padlockArguments.get("login") , padlockArguments.get("res") , padlockArguments.get("role") ) )
         {
-            case 2: logFatal("Invalid role supplied"); returnCode = 3; break;
-            case 1: logFatal("No access"); returnCode = 4; break;
+            case 2: logFatal("Error 3 - Invalid role supplied"); return 3;
+            case 1: logFatal("Error 4 - No access"); return 4;
         }
         else logWarn("No access information, skipping");
 
         // ШАГ 3: Заполняем данные о дате и объеме
         if (padlockArguments.containsKey("ds"))
-        {if (padlockString2Data(padlockArguments.get("ds")) == null) {logFatal("Incorrect date supplied");returnCode = 5;}}
+        {if (padlockString2Data(padlockArguments.get("ds")) == null) {logFatal("Error 5 - Incorrect date supplied");return 5;}}
             else logWarn("No start date information, skipping");
         if (padlockArguments.containsKey("de"))
-        {if (padlockString2Data(padlockArguments.get("ds")) == null) {logFatal("Incorrect date supplied");returnCode = 5;}}
+        {if (padlockString2Data(padlockArguments.get("ds")) == null) {logFatal("Error 5 - Incorrect date supplied");return 5;}}
             else logWarn("No end date information, skipping");
         if (padlockArguments.containsKey("vol"))
         {try { volume = Integer.parseInt(padlockArguments.get("vol")); }
-            catch (NumberFormatException e) { logFatal("Incorrect volume supplied");returnCode = 5;}}
+            catch (NumberFormatException e) { logFatal("Error 5 - Incorrect volume supplied");return 5;}}
             else logWarn("No volume information, skipping");
 
         // ШАГ 4: ???
         {/*https://www.youtube.com/watch?v=tO5sxLapAts*/}
 
         // ШАГ 5: PROFIT
-        logInfo("Program ended with code "+returnCode);
-
-        return returnCode;
+        return 0;
     }
 }

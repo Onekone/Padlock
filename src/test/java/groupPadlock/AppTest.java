@@ -3,6 +3,7 @@ package groupPadlock;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import static junit.framework.Assert.*;
 
 /**
  * Unit test for simple App.
@@ -33,9 +34,9 @@ public class AppTest extends TestCase
             assertTrue( true );
         }
 
+
     public void testGo() throws Exception {
         App tester = new App();
-        //tester.main(new String[]{});
         try {
             int i=0;
             System.out.println("-"+ (++i) +"---------------------");
@@ -66,7 +67,6 @@ public class AppTest extends TestCase
             assertEquals (5, tester.go (new String[]{"-login", "jdoe", "-pass", "sup3rpaZZ", "-role", "READ", "-res", "a.b", "-ds", "01-01-2015", "-de", "2015-12-31", "-vol", "100"}));
             System.out.println("-"+ (++i) +"---------------------");
             assertEquals (5, tester.go (new String[]{"-login", "jdoe", "-pass", "sup3rpaZZ", "-role", "READ", "-res", "a.b", "-ds", "2015-01-01", "-de", "2015-12-31", "-vol", "XXX"}));
-
         }
         catch (junit.framework.AssertionFailedError e) {System.out.println("Something went wrong");}
     }
