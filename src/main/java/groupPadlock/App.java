@@ -5,12 +5,23 @@ import org.apache.log4j.Logger;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 /**
  * Hello world!
  */
 public class App {
+
+
     final static Logger logger = Logger.getLogger (App.class);
+    public static int volume = 0;
+    static java.util.HashMap<String, String> loginSalt = new java.util.HashMap<String, String> ();
+    static java.util.HashMap<String, String> loginInformation = new java.util.HashMap<String, String> ();
+    static java.util.HashMap<String, String> loginNames = new java.util.HashMap<String, String> ();
+    static java.util.HashMap<String, String> padlockArguments = new java.util.HashMap<String, String> ();
+    static java.util.ArrayList<Access> loginRoles = new java.util.ArrayList<Access> ();
 
     public static void logDebug(String str) {
         if (logger.isDebugEnabled ()) {
@@ -36,13 +47,6 @@ public class App {
         logger.fatal (str);
     }
 
-    static java.util.HashMap<String, String> loginSalt = new java.util.HashMap<String, String> ();
-    static java.util.HashMap<String, String> loginInformation = new java.util.HashMap<String, String> ();
-    static java.util.HashMap<String, String> loginNames = new java.util.HashMap<String, String> ();
-    static java.util.HashMap<String, String> padlockArguments = new java.util.HashMap<String, String> ();
-    static java.util.ArrayList<Access> loginRoles = new java.util.ArrayList<Access> ();
-    public static int volume = 0;
-
     public static java.time.LocalDate padlockString2Data(String s) {
         try {
             if (s == null) throw new java.time.format.DateTimeParseException ("duh", "none", 5);
@@ -54,6 +58,21 @@ public class App {
             logError ("Invalid data information supplied");
             return null;
         }
+    }
+
+    public static void fillOutEmpty(Connection conn) throws SQLException {
+        Statement st = conn.createStatement ();
+
+        st.execute ("CREATE TABLE IF NOT EXISTS auth (login varchar(255) PRIMARY KEY,name varchar(255),hash varchar(255),salt varchar(255));");
+        st.execute ("INSERT INTO auth VALUES ('jdoe','John Doe','" + md5Custom ("12345" + md5Custom ("sup3rpaZZ")) + "','12345')");
+        st.execute ("INSERT INTO auth VALUES ('jrow','Jane Row','" + md5Custom ("67890" + md5Custom ("Qweqrty12")) + "','67890')");
+        st.execute ("CREATE TABLE IF NOT EXISTS role (id INT PRIMARY KEY auto_increment, login varchar(255),role INT,path varchar(255));");
+        st.execute ("INSERT INTO auth VALUES (1,'jdoe',1,'a')");
+        st.execute ("INSERT INTO auth VALUES (2,'jdoe',2,'a.b')");
+        st.execute ("INSERT INTO auth VALUES (3,'jrow',4,'a.b.c')");
+        st.execute ("INSERT INTO auth VALUES (4,'jdoe',4,'a.b.c')");
+        st.execute ("CREATE TABLE IF NOT EXISTS acco (id INT PRIMARY KEY auto_increment, login varchar(255),date_start date,date_end date,role INT);");
+
     }
 
     public static void showHelp() {
@@ -75,18 +94,18 @@ public class App {
         byte[] digest = new byte[0];
 
         try {
-            messageDigest = MessageDigest.getInstance("MD5");
-            messageDigest.reset();
-            messageDigest.update(st.getBytes());
-            digest = messageDigest.digest();
+            messageDigest = MessageDigest.getInstance ("MD5");
+            messageDigest.reset ();
+            messageDigest.update (st.getBytes ());
+            digest = messageDigest.digest ();
         } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
+            e.printStackTrace ();
         }
 
-        BigInteger bigInt = new BigInteger(1, digest);
-        String md5Hex = bigInt.toString(16);
+        BigInteger bigInt = new BigInteger (1, digest);
+        String md5Hex = bigInt.toString (16);
 
-        while (md5Hex.length() < 32) {
+        while (md5Hex.length () < 32) {
             md5Hex = "0" + md5Hex;
         }
 
@@ -104,11 +123,11 @@ public class App {
             logError ("Missing password");
             return 2;
         } // Missing password
-        else if (!loginInformation.containsKey (login)) {
+        else if (! loginInformation.containsKey (login)) {
             logError ("No such user exists");
             return 3;
         } // Invalid login
-        else if (! loginInformation.get(login).equals( md5Custom(loginSalt.get(login)+md5Custom(password))) ) {
+        else if (! loginInformation.get (login).equals (md5Custom (loginSalt.get (login) + md5Custom (password)))) {
             logError ("Invalid password");
             return 4;
         }
@@ -141,7 +160,7 @@ public class App {
             String res = loginRoles.get (i).path;
             int rle = loginRoles.get (i).role;
             for (int j = 0; j < explode.length; j++) {
-                if (res.equals (explode[j]) && roleInt == rle && lgn == login) {
+                if (res.equals (explode[j]) && roleInt == rle && lgn.equals (login)) {
                     logInfo ("Access granted");
                     return 0;
                 }
@@ -153,26 +172,22 @@ public class App {
         return 1;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int exitCode = go (args);
         System.exit (exitCode);
     }
 
-    public static int go(String[] args) {
-
-        loginSalt.put ("jdoe", "12345");
-        loginSalt.put ("jrow", "67890");
-
+    public static int go(String[] args) throws Exception {
         loginNames.put ("jdoe", "John Doe");
         loginNames.put ("jrow", "Jane Row");
-
         loginRoles.add (new Access ("jdoe", "a", 1));
         loginRoles.add (new Access ("jdoe", "a.b", 2));
         loginRoles.add (new Access ("jrow", "a.b.c", 4));
         loginRoles.add (new Access ("jdoe", "a.b.c", 4));
-
-        loginInformation.put ("jdoe", md5Custom(loginSalt.get ("jdoe") + md5Custom ("sup3rpaZZ")));
-        loginInformation.put ("jrow", md5Custom(loginSalt.get ("jrow") + md5Custom ("Qweqrty12")));
+        loginSalt.put ("jdoe", "12345");
+        loginSalt.put ("jrow", "67890");
+        loginInformation.put ("jdoe", md5Custom (loginSalt.get ("jdoe") + md5Custom ("sup3rpaZZ")));
+        loginInformation.put ("jrow", md5Custom (loginSalt.get ("jrow") + md5Custom ("Qweqrty12")));
 
         // Основная программа
         // ШАГ 0: Отсортировать данные
@@ -315,6 +330,7 @@ public class App {
         {/*https://www.youtube.com/watch?v=tO5sxLapAts*/}
 
         // ШАГ 5: PROFIT
+
         return 0;
     }
 }
