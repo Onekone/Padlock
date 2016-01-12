@@ -8,6 +8,7 @@ import java.security.NoSuchAlgorithmException;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
+import org.flywaydb.core.Flyway;
 
 /**
  * Hello world!
@@ -164,7 +165,6 @@ public class App {
                     logInfo ("Access granted");
                     return 0;
                 }
-                ;
             }
         }
 

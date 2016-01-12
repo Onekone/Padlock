@@ -16,4 +16,44 @@ public class DatabaseAccount
         this.date_end = date_end;
         this.role = role;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public LocalDate getDate_start() {
+        return date_start;
+    }
+
+    public void setDate_start(LocalDate date_start) {
+        this.date_start = date_start;
+    }
+
+    public LocalDate getDate_end() {
+        return date_end;
+    }
+
+    public void setDate_end(LocalDate date_end) {
+        this.date_end = date_end;
+    }
+
+    public int getRole() {
+        return role;
+    }
+
+    public void setRole(int role) {
+        this.role = role;
+    }
 }
