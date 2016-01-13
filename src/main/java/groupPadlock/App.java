@@ -42,12 +42,15 @@ public class App {
         logger.fatal (str);
     }
 
+    // К - костыль. Манипуляция с устаревшим методом нужна для того, чтобы код не был слишком разборчивым в плане
+    // разбора аргументов
     public static java.sql.Date padlockString2SQLDate(String s) {
         if (padlockString2Date(s)!=null)
         return java.sql.Date.valueOf (s);
         else return null;
     }
 
+    @Deprecated
     public static java.time.LocalDate padlockString2Date(String s) {
         try {
             if (s == null) throw new java.time.format.DateTimeParseException ("duh", "none", 5);
@@ -98,7 +101,6 @@ public class App {
         return md5Hex;
     }
 
-    @Deprecated
     public static int padlockAuth(String login, String password) throws SQLException {
         try {
             logDebug ("Trying to sign in with : login:" + login + " pass:" + password);
@@ -136,7 +138,6 @@ public class App {
         }
     }
 
-    @Deprecated
     public static int padlockAccess(String login, String resource, String role) throws SQLException {
         String[] explode = resource.split ("\\.");
         for (int i = 1; i < explode.length; i++) explode[i] = explode[i - 1] + "." + explode[i];

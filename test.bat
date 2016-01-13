@@ -1,2 +1,2 @@
-mvn test
+mvn site
 pause

@@ -20,10 +20,16 @@
   <reporting>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>cobertura-maven-plugin</artifactId>
-        <version>2.7</version>
-      </plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>2.7</version>
+            <configuration>
+                <formats>
+                    <format>html</format>
+                    <format>xml</format>
+                </formats>
+            </configuration>
+        </plugin>
 	  <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
@@ -36,16 +42,31 @@
             </reportSet>
           </reportSets>
         </plugin>
-		 <plugin>
+		<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
         <version>3.6</version>
+        <configuration>
+          <linkXref>true</linkXref>
+          <sourceEncoding>utf-8</sourceEncoding>
+          <minimumTokens>100</minimumTokens>
+          <targetJdk>1.5</targetJdk>
+          <excludes>
+            <exclude>**/*Bean.java</exclude>
+            <exclude>**/generated/*.java</exclude>
+          </excludes>
+          <excludeRoots>
+            <excludeRoot>target/generated-sources/stubs</excludeRoot>
+          </excludeRoots>
+        </configuration>
+      </plugin>
       </plugin>
 	    <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>findbugs-maven-plugin</artifactId>
         <version>3.0.3</version>
       </plugin>
+	  
     </plugins>
   </reporting>
 
@@ -86,6 +107,11 @@
   
   <build>
     <plugins>
+	<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.6</version>
+      </plugin>
 	  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
