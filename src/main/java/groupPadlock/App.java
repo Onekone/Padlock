@@ -12,9 +12,10 @@ import java.sql.*;
  * Hello world!
  */
 public class App {
-
     final static Logger logger = Logger.getLogger (App.class);
+    public static Connection conn = null;
     public static int volume = 0;
+    public static int roleId = 0;
     static java.util.HashMap<String, String> padlockArguments = new java.util.HashMap<String, String> ();
 
     public static void logDebug(String str) {
@@ -42,10 +43,12 @@ public class App {
     }
 
     public static java.sql.Date padlockString2SQLDate(String s) {
+        if (padlockString2Date(s)!=null)
         return java.sql.Date.valueOf (s);
+        else return null;
     }
 
-    public static java.time.LocalDate padlockString2Data(String s) {
+    public static java.time.LocalDate padlockString2Date(String s) {
         try {
             if (s == null) throw new java.time.format.DateTimeParseException ("duh", "none", 5);
             java.time.format.DateTimeFormatter formatter = java.time.format.DateTimeFormatter.ofPattern ("uuuu-M-d");
@@ -96,13 +99,15 @@ public class App {
     }
 
     @Deprecated
-    public static int padlockAuth(String login, String password, Connection conn) throws SQLException {
+    public static int padlockAuth(String login, String password) throws SQLException {
         try {
             logDebug ("Trying to sign in with : login:" + login + " pass:" + password);
             PreparedStatement p = conn.prepareStatement ("SELECT * FROM auth WHERE login = ?");
             p.setString (1, login);
             ResultSet rs = p.executeQuery ();
 
+            boolean exists = false;
+            if (rs.next ()) exists = true;
             DatabaseAuth a = new DatabaseAuth (login, rs.getString ("name"), rs.getString ("hash"), rs.getString ("salt"));
 
             if (login.equals ("") || login.equals (null)) {
@@ -113,7 +118,7 @@ public class App {
                 logError ("Missing password");
                 return 2;
             } // Missing password
-            else if (rs.getFetchSize () == 0) {
+            else if (! exists) {
                 logError ("No such user exists");
                 return 3;
             } // Invalid login
@@ -132,10 +137,19 @@ public class App {
     }
 
     @Deprecated
-    public static int padlockAccess(String login, String resource, String role) {
+    public static int padlockAccess(String login, String resource, String role) throws SQLException {
         String[] explode = resource.split ("\\.");
         for (int i = 1; i < explode.length; i++) explode[i] = explode[i - 1] + "." + explode[i];
         java.util.ArrayList<DatabaseRole> loginRoles = new java.util.ArrayList<DatabaseRole> ();
+
+        PreparedStatement p = conn.prepareStatement ("SELECT * FROM role WHERE login = ?");
+        p.setString (1, login);
+        ResultSet rs = p.executeQuery ();
+
+        while (rs.next ()) {
+            loginRoles.add (new DatabaseRole (rs.getInt ("id"), rs.getString ("login"), rs.getInt ("role"), rs.getString ("path")));
+        }
+
         int roleInt = 0;
 
         switch (role.toLowerCase ()) {
@@ -157,6 +171,7 @@ public class App {
             for (int j = 0; j < explode.length; j++) {
                 if (res.equals (explode[j]) && roleInt == rle && lgn.equals (login)) {
                     logInfo ("Access granted");
+                    roleId = loginRoles.get(i).id;
                     return 0;
                 }
             }
@@ -178,13 +193,15 @@ public class App {
         flyway.migrate ();
 
         Class.forName ("org.h2.Driver");
-        Connection conn = DriverManager.getConnection ("jdbc:h2:file:./aaa.db", "sa", "");
+        conn = DriverManager.getConnection ("jdbc:h2:file:./aaa.db", "sa", "");
 
-
-
-
-        PreparedStatement insertLog = conn.prepareStatement ("INSERT INTO acco VALUES ( accoId.NEXTVAL , ? , ? , ? , ? , ?);");
-
+        PreparedStatement insertLog = conn.prepareStatement ("INSERT INTO acco VALUES ( accoId.NEXTVAL , ?   , ? , ? , ? , ?);");
+                                                                                        // ID          login  ds  de  role vol
+        insertLog.setString (1,"");
+        insertLog.setDate (2,null);
+        insertLog.setDate (3,null);
+        insertLog.setInt    (4, -1);
+        insertLog.setInt    (5, volume);
         // Основная программа
         // ШАГ 0: Отсортировать данные
 
@@ -213,6 +230,7 @@ public class App {
                 case "-login":
                     padlockArguments.put ("login", args[i + 1]);
                     logDebug ("Supplied LOGIN field: " + args[i + 1]);
+                    insertLog.setString (1,args[i+1]);
                     i++;
                     combo1 = combo1 | 1;
                     break;
@@ -282,7 +300,7 @@ public class App {
 
         // ШАГ 1: Логинимся
 
-        switch (padlockAuth (padlockArguments.get ("login"), padlockArguments.get ("pass"), conn)) {
+        switch (padlockAuth (padlockArguments.get ("login"), padlockArguments.get ("pass"))) {
             case 1:
             case 3:
                 logFatal ("Error 1 - Unknown username " + padlockArguments.get ("login"));
@@ -306,6 +324,8 @@ public class App {
                     logFatal ("Error 4 - No access");
                     conn.close ();
                     return 4;
+                default:
+                    insertLog.setInt (4, roleId);
             }
         else logWarn ("No access information, skipping");
 
@@ -317,11 +337,11 @@ public class App {
                 conn.close ();
                 return 5;
             } else {
-                insertLog.setDate (3, p);
+                insertLog.setDate (2, p);
             }
         } else {
             logWarn ("No start date information, skipping");
-            insertLog.setDate (3, null);
+            insertLog.setDate (2, null);
         }
         if (padlockArguments.containsKey ("de")) {
             java.sql.Date p = padlockString2SQLDate (padlockArguments.get ("de"));
@@ -330,16 +350,17 @@ public class App {
                 conn.close ();
                 return 5;
             } else {
-                insertLog.setDate (4, p);
+                insertLog.setDate (3, p);
             }
         } else {
             logWarn ("No end date information, skipping");
-            insertLog.setDate (4, null);
+            insertLog.setDate (3, null);
         }
         ;
         if (padlockArguments.containsKey ("vol")) {
             try {
                 volume = Integer.parseInt (padlockArguments.get ("vol"));
+                insertLog.setInt (5, volume);
             } catch (NumberFormatException e) {
                 logFatal ("Error 5 - Incorrect volume supplied");
                 conn.close ();
@@ -347,12 +368,17 @@ public class App {
             }
         } else logWarn ("No volume information, skipping");
 
-        insertLog.setInt (5, volume);
+
 
         // ШАГ 4: ???
         {/*https://www.youtube.com/watch?v=tO5sxLapAts*/}
 
         // ШАГ 5: PROFIT
+
+
+        insertLog.executeUpdate ();
+
+
         conn.close ();
         return 0;
     }
