@@ -190,11 +190,11 @@ public class App {
     public static int go(String[] args) throws Exception {
 
         Flyway flyway = new Flyway ();
+        flyway.setBaselineOnMigrate(true);
         flyway.setDataSource ("jdbc:h2:file:./aaa.db", "sa", "");
         flyway.migrate ();
         flyway.repair ();
-        flyway.setBaselineOnMigrate(true);
-
+        
         Class.forName ("org.h2.Driver");
         conn = DriverManager.getConnection ("jdbc:h2:file:./aaa.db", "sa", "");
 

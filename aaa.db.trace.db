@@ -147,3 +147,12 @@ No data is available [2000-190]
 2016-01-13 17:25:50 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Нет данных
 No data is available [2000-190]
+2016-01-13 18:17:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-190]
+2016-01-13 18:17:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-190]
+2016-01-13 18:21:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-190]
