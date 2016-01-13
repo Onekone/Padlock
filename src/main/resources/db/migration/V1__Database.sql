@@ -1,0 +1,11 @@
+CREATE SEQUENCE roleId;
+CREATE SEQUENCE accoId;
+CREATE TABLE IF NOT EXISTS auth (login varchar(255) PRIMARY KEY,name varchar(255),hash varchar(255),salt varchar(255));
+CREATE TABLE IF NOT EXISTS role (id BIGINT PRIMARY KEY, login varchar(255),role INT, path varchar(255));
+CREATE TABLE IF NOT EXISTS acco (id BIGINT PRIMARY KEY, login varchar(255),date_start date,date_end date,role INT,volume INT);
+INSERT INTO auth VALUES ('jdoe','John Doe','4fa42c2803c1a61ed8361f2545cc3265','12345');
+INSERT INTO auth VALUES ('jrow','Jane Row','d23e8f2896c0792ecb87b9dcc7f5c28d','67890');
+INSERT INTO role VALUES (roleId.NEXTVAL,'jdoe',1,'a');
+INSERT INTO role VALUES (roleId.NEXTVAL,'jdoe',2,'a.b');
+INSERT INTO role VALUES (roleId.NEXTVAL,'jrow',4,'a.b.c');
+INSERT INTO role VALUES (roleId.NEXTVAL,'jdoe',4,'a.b.c');
