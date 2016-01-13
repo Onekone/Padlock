@@ -192,9 +192,10 @@ public class App {
         Flyway flyway = new Flyway ();
         flyway.setBaselineOnMigrate(true);
         flyway.setDataSource ("jdbc:h2:file:./aaa.db", "sa", "");
-        flyway.migrate ();
         flyway.repair ();
-        
+        flyway.migrate ();
+
+
         Class.forName ("org.h2.Driver");
         conn = DriverManager.getConnection ("jdbc:h2:file:./aaa.db", "sa", "");
 
